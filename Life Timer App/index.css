@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:ital,wght@0,100;0,400;0,600;0,700;1,400&family=Potta+One&family=Roboto&family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Oswald', sans-serif;
+}
+
+.background{
+    width: 100vw;
+    height: 100vh;
+    background: url("./images/moutain.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;  
+}
+
+.container{
+      display: grid;
+      place-items: center;    
+      height: 50vh;
+}
+
+.container h1{
+      font-size: 3rem;
+      color: #000;
+}
+
+
+.settings {
+      position: absolute;
+      bottom: 30px;
+      right: 20px;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+}
+
+.settings .fa-solid{
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.settings-content{
+      display: flex;
+      gap: 1rem;
+}
+
+.settings-content input{
+      padding: 0.3rem 1rem;
+      font-size: 1.5rem;
+      border-radius: 10px;
+      border: none;
+      outline: none;
+}
+
+.settings-content button{
+      padding: 0.5rem 1rem;
+      border: none;
+      border-radius: 10px;
+      outline: none;
+      background: #008000;
+      color: #fff;
+      font-size: 1rem;
+      font-weight: 600;
+      letter-spacing: 1px;
+      cursor: pointer;
+}
+
+.hide{
+      display: none;
+}
+
+
+.time-container{
+      margin-top: 1rem;
+      display: flex;
+      gap: 2rem;
+      justify-content: center;
+      align-items: center;
+}
+
+.time-container h2{
+      text-align: center;
+      font-size: 2.5rem;
+      color: #fff;
+}
+
+
+.time-container div{
+      font-size: 3.5rem;
+      /* color: #fff; */
+}
